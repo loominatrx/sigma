@@ -1,5 +1,6 @@
 {
   "name": "sigma",
+  "placeId": 18147098458,
   "tree": {
     "$className": "DataModel",
     "Players": {
@@ -15,7 +16,6 @@
 
     "ReplicatedFirst": {
       "loadingScreen": {
-        "$className": "LocalScript",
         "$path": "src/loadingScreen.rbxmx"
       }
     },
