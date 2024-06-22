@@ -21,6 +21,7 @@ local ReactRoblox = require(Packages.ReactRoblox)
 local Knit = require(Packages.Knit)
 
 local calculateSigma = require(ReplicatedStorage.Shared.calculateSigma)
+local topbar
 
 local controller = Knit.CreateController {
     Name = 'controller'
@@ -204,11 +205,14 @@ function controller:setup()
         end
     end
 
+    topbar:show()
+
     controller.music.menu:Play()
 end
 
 function controller:calculateSigma(name)
     if controller.doingTheFunny == false then
+        topbar:hide()
         controller.doingTheFunny = true
         local sigmaPercent = calculateSigma(name)
         local container = self.handle.Frame.Result.Container
@@ -338,11 +342,12 @@ function controller:KnitInit()
     handle.ClipToDeviceSafeArea = true
     handle.SafeAreaCompatibility = Enum.SafeAreaCompatibility.FullscreenExtension
     handle.ScreenInsets = Enum.ScreenInsets.None
-    handle.DisplayOrder = 727 -- WHEN YOU SEE IT
+    handle.DisplayOrder = 1
     handle.Parent = Players.LocalPlayer:WaitForChild('PlayerGui')
 end
 
 function controller:KnitStart()
+    topbar = Knit.GetController('topbar')
     ContentProvider:PreloadAsync({
         table.unpack(controller.music),
         table.unpack(controller.sound),

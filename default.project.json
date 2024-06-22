@@ -25,7 +25,10 @@
         "$path": "src/shared"
       },
       "Packages": {
-        "$path": "Packages"
+        "$path": "Packages",
+        "Icon": {
+          "$path": "lib/TopbarPlus/src"
+        }
       }
     },
 
