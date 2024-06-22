@@ -1,5 +1,10 @@
 # <p align="center"><img src="assets/logo.svg" width="60%" height="60%" alt="How Sigma Are You?"></p>
 
+![Playcount](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgames.roblox.com%2Fv1%2Fgames%3FuniverseIds%3D6152208117&query=%24.data%5B%3A1%5D.playing&label=active%20players&color=red&cacheSeconds=30)
+![Visits](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgames.roblox.com%2Fv1%2Fgames%3FuniverseIds%3D6152208117&query=%24.data%5B%3A1%5D.visits&label=visits&cacheSeconds=60)
+![Favorites](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgames.roblox.com%2Fv1%2Fgames%3FuniverseIds%3D6152208117&query=%24.data%5B%3A1%5D.favoritedCount&label=favorites&cacheSeconds=60&color=green)
+
+
 *Have you been wondering how much sigma you are as a person? Worry no more! Introducing... the ultra based sigma-o-meter game!*
 
 > [!WARNING]
