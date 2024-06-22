@@ -4,8 +4,12 @@
 
 ## Key Features
 
-- No RNG involved! All of the calculation is based on simple string calculation!
+- No RNG involved!
+  > All of the calculation is based on simple string calculation!
 - ~~Not~~ Funny payload during calculation!
+  > Based on Epic Calculator's payload during reveal!
+- No data harvesting in any way!
+  > This game is NOT receiving any personal data in ANY way.
 
 ## Getting Started
 
@@ -28,6 +32,14 @@
     ```bash
     rojo serve
     ```
+
+> [!IMPORTANT]
+> All sounds needs to be replaced, as Roblox do not allow audio to go public.
+
+## Credits
+
+- Song: xKore - Event Horizon
+- Inspiration: Epic Calculator from GD and some [random Indonesian trend](https://check-your-khodam-new.netlify.app/)
 
 ## License
 
