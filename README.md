@@ -2,6 +2,9 @@
 
 *Have you been wondering how much sigma you are as a person? Worry no more! Introducing... the ultra based sigma-o-meter game!*
 
+> [!WARNING]
+> This game is made only for comedic purposes, do not take it seriously.
+
 ## Key Features
 
 - No RNG involved!
