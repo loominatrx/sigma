@@ -1,4 +1,4 @@
-# ![How Sigma Are You?](./assets/logo.svg)
+# <p align="center"><img src="assets/logo.svg" width="60%" height="60%" alt="How Sigma Are You?"></p>
 
 *Have you been wondering how much sigma you are as a person? Worry no more! Introducing... the ultra based sigma-o-meter game!*
 
@@ -31,4 +31,4 @@
 
 ## License
 
-This place is open under the MIT license.See <https://opensource.org/licenses/MIT> or LICENSE for details.
+This place (excluding assets used in-game) is open under the MIT license. See <https://opensource.org/licenses/MIT> or LICENSE for details.
