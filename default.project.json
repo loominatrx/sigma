@@ -1,0 +1,78 @@
+{
+  "name": "sigma",
+  "tree": {
+    "$className": "DataModel",
+    "Players": {
+      "$properties": {
+        "CharacterAutoLoads": false
+      }
+    },
+    "StarterGui": {
+      "$properties": {
+        "ScreenOrientation": "Sensor"
+      }
+    },
+
+    "ReplicatedFirst": {
+      "loadingScreen": {
+        "$className": "LocalScript",
+        "$path": "src/loadingScreen.rbxmx"
+      }
+    },
+
+    "ReplicatedStorage": {
+      "Shared": {
+        "$path": "src/shared"
+      },
+      "Packages": {
+        "$path": "Packages"
+      }
+    },
+
+    "ServerScriptService": {
+      "Server": {
+        "$path": "src/server"
+      }
+    },
+
+    "StarterPlayer": {
+      "$properties": {
+        "DevComputerMovementMode": "Scriptable",
+        "DevTouchMovementMode": "Scriptable",
+        "EnableMouseLockOption": false,
+
+        "AutoJumpEnabled": false
+      },
+      "StarterPlayerScripts": {
+        "Client": {
+          "$path": "src/client"
+        }
+      }
+    },
+
+    "Workspace": {
+      "$properties": {
+        "FilteringEnabled": true
+      }
+    },
+    "Lighting": {
+      "$properties": {
+        "Ambient": [
+          0,
+          0,
+          0
+        ],
+        "Brightness": 0,
+        "GlobalShadows": false,
+        "Outlines": false,
+        "Technology": "Compatibility"
+      }
+    },
+    "SoundService": {
+      "$properties": {
+        "RespectFilteringEnabled": true
+      },
+      "$path": "src/sounds"
+    }
+  }
+}
